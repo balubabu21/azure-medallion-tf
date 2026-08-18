@@ -1,5 +1,5 @@
 resource "azurerm_mssql_server" "this" {
-  name                         = "sql-medallion-${var.environment}"
+  name                         = "sql-medallion-${var.environment}-01"
   resource_group_name          = var.resource_group_name
   location                     = var.location
   version                      = "12.0"
