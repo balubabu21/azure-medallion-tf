@@ -1,0 +1,23 @@
+# Terraform local state and cache
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Plan output files
+*.tfplan
+crash.log
+crash.*.log
+
+# Sensitive variable files (if you ever create a *.auto.tfvars with real secrets locally)
+*.auto.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# OS/editor cruft
+.DS_Store
+.vscode/
+*.swp
