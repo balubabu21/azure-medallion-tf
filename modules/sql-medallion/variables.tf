@@ -8,7 +8,7 @@ variable "resource_group_name" {
 
 variable "location" {
   type    = string
-  default = "uksouth"
+  default = "australiaeast"
 }
 
 variable "sql_admin_login" {
